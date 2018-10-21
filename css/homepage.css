@@ -1,0 +1,88 @@
+.hobby-list p:hover
+{
+    text-decoration: underline; 
+}
+.skill
+{
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x:hidden;
+    border-radius: 16px;         
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    border-radius: 16px;
+    margin: 0;
+}
+.skill:before
+{
+    width: 100%;
+    height: 24px;
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 16px;
+    background: #f1f1f1;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 24px;
+    border-radius: 16px;
+    background:#009688;
+    display: block;
+    position: relative;
+}
+
+.skill-bar {
+    position: relative;
+}
+
+.skill_en{
+    width: 90%;
+}
+.skill_en .skill-count_en {
+    right: 0;
+}
+.skill_jap{
+    width: 10%;
+}
+.skill_jap .skill-count_jap {
+    right: 0;
+}
+.skill_hin{
+    width: 80%;            
+}
+.skill_hin .skill-count_hin {
+    right: 0;
+}
+.skill_and{
+    width: 60%;
+}
+.skill_and .skill-count_and {
+    right: 0;
+}
+.skill_fsp{
+    width: 50%;
+}
+.skill_fsp .skill-count_fsp {
+    right: 0;
+}
+.skill_ps{
+    width: 20%;
+}
+.skill_ps .skill-count_ps {
+    right: 0;
+}
+.skill_ai{
+    width: 10%;
+}
+.skill_ai .skill-count_ai {
+    right: 0;
+}
+
+.padding_bottom {
+    padding-bottom: 8px;
+}
