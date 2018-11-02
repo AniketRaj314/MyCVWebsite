@@ -59,7 +59,7 @@
     right: 0;
 }
 .skill_and{
-    width: 60%;
+    width: 80%;
 }
 .skill_and .skill-count_and {
     right: 0;
@@ -71,13 +71,13 @@
     right: 0;
 }
 .skill_ps{
-    width: 20%;
+    width: 70%;
 }
 .skill_ps .skill-count_ps {
     right: 0;
 }
 .skill_ai{
-    width: 10%;
+    width: 20%;
 }
 .skill_ai .skill-count_ai {
     right: 0;
