@@ -24,8 +24,8 @@ $(document).ready(function(){
                   },
                   {
                     header : "Gaming",
-                    para : "I prefer a story-based game more than online competative games.<br>GTA series, Unchartered 4, Assassin's Creed are some of the games which I could play all day.",
-                    footer : "I still play old retro games like Mario, Pacman and would want to own a retro gaming machine some day!"
+                    para : "I prefer a story-based game more than online competative games.<br>GTA series, Uncharted 4, Assassin's Creed are some of the games which I could play all day.",
+                    footer : "I still play retro games like Mario, Pacman and would want to own a retro gaming machine some day!"
                   }
                 ];
 
