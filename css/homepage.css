@@ -65,7 +65,7 @@
     right: 0;
 }
 .skill_fsp{
-    width: 50%;
+    width: 40%;
 }
 .skill_fsp .skill-count_fsp {
     right: 0;
@@ -77,9 +77,13 @@
     right: 0;
 }
 .skill_ai{
-    width: 20%;
+    width: 30%;
 }
-.skill_ai .skill-count_ai {
+
+.skill_cc{
+    width: 50%;
+}
+.skill_cc .skill-count_cc {
     right: 0;
 }
 
