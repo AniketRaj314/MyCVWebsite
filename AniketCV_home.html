@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <title>Welcome to My Page</title>
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144915859-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144915859-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-144915859-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144915859-1');
+  </script>
 
 </head>
 <meta charset="UTF-8">
@@ -24,289 +28,387 @@
 <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
 <link rel="icon" href="images/favicon.png">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif
+  }
 </style>
+
 <body style="background-color: #F1F1F1;">
   <div class="loader">
     <img src="images/loader(4).gif" alt="loader" style="display: none;">
   </div>
-  <div class="parent wow fadeIn" data-wow-duration = "1s" >
-  
-  <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
- 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container wow slideInLeft">
-          <img src="images/profile.jpeg" style="width:100%" alt="My Pic">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2>Aniket Raj</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-            <p class= "wow bounceInUp"><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal w3-margin-top"></i>Programmer</p>
-            <p class= "wow bounceInUp" data-wow-delay="0.5s"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Mumbai, India</p>
-            <p class= "wow bounceInUp" data-wow-delay="1.0s"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>aniketraj@thescriptgroup.in</p>
-            <p class= "wow bounceInUp" data-wow-delay="1.5s"><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91 9969596700</p>
-            <hr>
-          
+  <div class="parent wow fadeIn" data-wow-duration="1s">
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Front End Website Developing</p>
-          <div class="skill">
-            <div class="skill-bar skill_and wow slideInLeft animated">
-              <span class="skill-count_and" style="font-size: 17px; color: white; float: right; padding-right: 5px;">80%</span>
-            </div>
-          </div>
-          <p>Major Languages (JavaScript, C++, Python, JAVA)</p>
-          <div class="skill">
-            <div class="skill-bar skill_ps wow slideInLeft animated">
-              <span class="skill-count_ps" style="font-size: 17px; color: white; float: right; padding-right: 5px;">70%</span>
-            </div>
-          </div>
-          <p>Competitive Coding </p>
-          <div class="skill">
-            <div class="skill-bar skill_cc wow slideInLeft animated">
-              <span class="skill-count_cc" style="font-size: 17px; color: white; float: right; padding-right: 5px;">50%</span>
-            </div>
-          </div>
-          <p>Machine Learning</p>
-          <div class="skill">
-            <div class="skill-bar skill_ai wow slideInLeft animated">
-              <span class="skill-count_ai" style="font-size: 17px; color: white; float: right; padding-right: 5px;">30%</span>
-            </div>
-          </div>
-          <p>App Developing</p>
-          <div class="skill">
-            <div class="skill-bar skill_fsp wow slideInLeft animated">
-              <span class="skill-count_fsp" style="font-size: 17px; color: white; float: right; padding-right: 5px;">40%</span>
-            </div>
-          </div>
-          <br>
-          <hr>
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="skill">
-            <div class="skill-bar skill_en wow slideInLeft animated">
-              <span class="skill-count_en"></span>
-            </div>
-          </div>
-          <p>Hindi</p>
-          <div class="skill">
-            <div class="skill-bar skill_hin wow slideInLeft animated">
-              <span class="skill-count_hin"></span>
-            </div>
-          </div>
-          <p>Japanese</p>
-          <div class="skill">
-            <div class="skill-bar skill_jap wow slideInLeft animated">
-              <span class="skill-count_jap"></span>
-            </div>
-          </div>
-          <br><hr>
-          <p class="w3-large"><b><i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal speech-bubble"></i>Hobbies    <i style="font-size: 12px;">(List items are clickable!)</i></b></p>
-          <div class="hobby-list">
-            <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn"><b><i class="fas fa-table-tennis fa-fw w3-margin-right w3-text-teal"></i>Sports</b></p>
-            <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn" data-wow-delay="0.5s"><b><i class="fas fa-book-open fa-fw w3-margin-right w3-text-teal"></i>Comic Books</b></p>
-            <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn" data-wow-delay="1.0s"><b><i class="fa fa-music fa-fw w3-margin-right w3-text-teal"></i>Music</b></p>
-            <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn" data-wow-delay="1.5s"><b><i class="fa fa-gamepad fa-fw w3-margin-right w3-text-teal"></i>Gaming</b></p>
-          </div>
-          <div id="id01" class="w3-modal">
-            <div class="w3-modal-content w3-card-4 w3-animate-bottom">
-              <header class="w3-container w3-teal"> 
-                <span class="w3-button w3-display-topright">&times;</span>
-                <h2 id = "hobby-header">Default Header</h2>
-              </header>
-              <div class="w3-container w3-text-black w3-padding-16">
-                <p id = "hobby-content">Default Para</p>
-              </div>
-              <div class="w3-container w3-teal w3-padding">
-                <span>Fun Fact:</span>
-                <p id = "hobby-fact">Default fact</p>
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+
+        <!-- Left Column -->
+        <div class="w3-third">
+
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-display-container wow slideInLeft">
+              <img src="images/profile.jpeg" style="width:100%" alt="My Pic">
+              <div class="w3-display-bottomleft w3-container w3-text-white">
+                <h2>Aniket Raj</h2>
               </div>
             </div>
+            <div class="w3-container">
+              <p class="wow bounceInUp"><i
+                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal w3-margin-top"></i>Programmer</p>
+              <p class="wow bounceInUp" data-wow-delay="0.5s"><i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Mumbai, India</p>
+              <p class="wow bounceInUp" data-wow-delay="1.0s"><i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>aniketraj@thescriptgroup.in</p>
+              <p class="wow bounceInUp" data-wow-delay="1.5s"><i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91 9969596700</p>
+              <hr>
+
+
+              <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+              <p>Front End Website Developing</p>
+              <div class="skill">
+                <div class="skill-bar skill_and wow slideInLeft animated">
+                  <span class="skill-count_and"
+                    style="font-size: 17px; color: white; float: right; padding-right: 5px;">80%</span>
+                </div>
+              </div>
+              <p>Major Languages (JavaScript, C++, Python, JAVA)</p>
+              <div class="skill">
+                <div class="skill-bar skill_ps wow slideInLeft animated">
+                  <span class="skill-count_ps"
+                    style="font-size: 17px; color: white; float: right; padding-right: 5px;">70%</span>
+                </div>
+              </div>
+              <p>Competitive Coding </p>
+              <div class="skill">
+                <div class="skill-bar skill_cc wow slideInLeft animated">
+                  <span class="skill-count_cc"
+                    style="font-size: 17px; color: white; float: right; padding-right: 5px;">50%</span>
+                </div>
+              </div>
+              <p>Machine Learning</p>
+              <div class="skill">
+                <div class="skill-bar skill_ai wow slideInLeft animated">
+                  <span class="skill-count_ai"
+                    style="font-size: 17px; color: white; float: right; padding-right: 5px;">30%</span>
+                </div>
+              </div>
+              <p>App Developing</p>
+              <div class="skill">
+                <div class="skill-bar skill_fsp wow slideInLeft animated">
+                  <span class="skill-count_fsp"
+                    style="font-size: 17px; color: white; float: right; padding-right: 5px;">40%</span>
+                </div>
+              </div>
+              <br>
+              <hr>
+              <p class="w3-large w3-text-theme"><b><i
+                    class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+              <p>English</p>
+              <div class="skill">
+                <div class="skill-bar skill_en wow slideInLeft animated">
+                  <span class="skill-count_en"></span>
+                </div>
+              </div>
+              <p>Hindi</p>
+              <div class="skill">
+                <div class="skill-bar skill_hin wow slideInLeft animated">
+                  <span class="skill-count_hin"></span>
+                </div>
+              </div>
+              <p>Japanese</p>
+              <div class="skill">
+                <div class="skill-bar skill_jap wow slideInLeft animated">
+                  <span class="skill-count_jap"></span>
+                </div>
+              </div>
+              <br>
+              <hr>
+              <p class="w3-large"><b><i
+                    class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal speech-bubble"></i>Hobbies <i
+                    style="font-size: 12px;">(List items are clickable!)</i></b></p>
+              <div class="hobby-list">
+                <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn"><b><i
+                      class="fas fa-table-tennis fa-fw w3-margin-right w3-text-teal"></i>Sports</b></p>
+                <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn" data-wow-delay="0.5s"><b><i
+                      class="fas fa-book-open fa-fw w3-margin-right w3-text-teal"></i>Comic Books</b></p>
+                <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn" data-wow-delay="1.0s"><b><i
+                      class="fa fa-music fa-fw w3-margin-right w3-text-teal"></i>Music</b></p>
+                <p style="margin-left: 25%; cursor: pointer;" class="wow fadeIn" data-wow-delay="1.5s"><b><i
+                      class="fa fa-gamepad fa-fw w3-margin-right w3-text-teal"></i>Gaming</b></p>
+              </div>
+              <div id="id01" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-bottom">
+                  <header class="w3-container w3-teal">
+                    <span class="w3-button w3-display-topright">&times;</span>
+                    <h2 id="hobby-header">Default Header</h2>
+                  </header>
+                  <div class="w3-container w3-text-black w3-padding-16">
+                    <p id="hobby-content">Default Para</p>
+                  </div>
+                  <div class="w3-container w3-teal w3-padding">
+                    <span>Fun Fact:</span>
+                    <p id="hobby-fact">Default fact</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <br>
+          <br>
 
-    <!-- End Left Column -->
-    </div>
+          <!-- End Left Column -->
+        </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-      
-      <div class="wow bounceInUp">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience and Projects</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Full-Stack Intern and Campus Ambassador at <a href="https://bitgrit.net" style="color: darkblue;" target="_blank">bitgrit</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>I am a Campus Ambassador for bitgrit. and along with that, I am privileged to work on the tech side at bitgrit as an intern. This is truly helping me get on board with the latest tech stacks, and understand them in depth. We explored KubeFlow APIs, researched how to train models on encrypted data, and much more.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front-End Developer Intern at <a href="https://apli.ai" style="color: darkblue;" target="_blank">Apli.ai</a>, IIT-Bombay</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2020 - May 2020</h6>
-          <p>My role was more towards the Front-End aspect of the product. Apli is a great initiative for the welfare of the students, colleges, and companies hiring them as well. They are incubated by IIT-Bombay at their Monash Research Centre.</p>
-          <hr>
-        </div>
-        <div class="w3-container hidework">
-          <h5 class="w3-opacity"><b>Website development for <a href="http://mitaarohan.netlify.com" style="color: darkblue;" target="_blank">Aarohan</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2020</h6>
-          <p>Aarohan, the annual cultural festival of MIT WPU, Pune was started in the year 2014 by a group of passionate individuals of the MIT College of Engineering. With a multitude of events, performances and activities, Aarohan has never failed to cast a spell over the audience.</p>
-          <hr>
-        </div>
-        <div class="w3-container hidework">
-          <h5 class="w3-opacity"><b>Data Analyst Intern at <a href="https://www.bankofindia.co.in/english/home.aspx" target = "_blank" style="color: darkblue;">Bank of India</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2019 - July 2019</h6>
-          <p>Wanting to explore the depth of Data Analysis, Bank of India graciously accepted me as their intern, to learn and work on their training models. The team working here has given me immense support, and a good overview of what a Data Scientist does.</p>
-          <hr>
-        </div>
-        <div class="w3-container hidework">
-          <h5 class="w3-opacity"><b>Web Development at <a href = "https://www.idealake.com/" target="_blank" style="color: darkblue">IdeaLake</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018 - July 2018</span></h6>
-          <p>I started my training in web programming under the guidance of Idealake. The work environment was comfortable and my colleagues were highly trained professionals who made me a better version of myself.</p>
-          <hr>
-        </div>
-        <div class="w3-container hidework">
-          <h5 class="w3-opacity"><b>App Developing at <a href="https://www.bankofindia.co.in/english/home.aspx" target = "_blank" style="color: darkblue;">Bank of India</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2017 - July 2017</h6>
-          <p>I was introduced to Android Studio while I was working on an inventory app for Bank of India. My trainers made me visualize the endless possibilities Android Studio brings to us.</p>
-        </div>
-        <div class="w3-container w3-center">
-          <button id = "hideworkbutton">Show More</button>
-        </div>
-      </div>
-    </div>
-    <div class="wow bounceInUp">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-chalkboard-teacher fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Community Ops and Tech-fluencer</h2>
-        <div class="w3-container">
-            <p class="wow fadeIn"><i class="fa fa-code fa-xs fa-spin"></i> Speaker at 5 international webinars for bitgrit to engage community during pandemic. (<a href="https://www.youtube.com/watch?v=YUPX0pNro_s&t=4633s" target="_blank" style="color: darkblue;">Link to YouTube</a>)</p>
-            <p class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-code fa-xs fa-spin"></i> Head Organizer at <a style="color: darkblue;" href="https://thescriptgroup.in" target="_blank">The S.C.R.I.P.T Group</a></p>
-            <p class="wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-code fa-sm fa-spin"></i> YouTube Content Creator for Developers and 100 Days of Code challengee! (<a style="color: darkblue;" href="https://www.youtube.com/channel/UCPK07RXLEV63B1lZmn8oTCg" target="_blank">YouTube Channel</a>)</p>
-            <p class="wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-code fa-xs fa-spin"></i> Taught JAVA and Python as Add-on Course Instructor for Third Year CSE students by School of CET, MIT-WPU</p>
-            <p class="wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-code fa-xs fa-spin"></i> 60+ hours of talks, workshop, webinar and teaching experience.</p>
+        <!-- Right Column -->
+        <div class="w3-twothird">
+
+          <div class="wow bounceInUp">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i
+                  class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience and Projects
+              </h2>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Full-Stack Intern and Campus Ambassador at <a href="https://bitgrit.net"
+                      style="color: darkblue;" target="_blank">bitgrit</a></b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2020 - <span
+                    class="w3-tag w3-teal w3-round">Current</span></h6>
+                <p>I am a Campus Ambassador for bitgrit. and along with that, I am privileged to work on the tech side
+                  at bitgrit as an intern. This is truly helping me get on board with the latest tech stacks, and
+                  understand them in depth. We explored KubeFlow APIs, researched how to train models on encrypted data,
+                  and much more.</p>
+                <hr>
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Front-End Developer Intern at <a href="https://apli.ai"
+                      style="color: darkblue;" target="_blank">Apli.ai</a>, IIT-Bombay</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2020 - May 2020
+                </h6>
+                <p>My role was more towards the Front-End aspect of the product. Apli is a great initiative for the
+                  welfare of the students, colleges, and companies hiring them as well. They are incubated by IIT-Bombay
+                  at their Monash Research Centre.</p>
+                <hr>
+              </div>
+              <div class="w3-container hidework">
+                <h5 class="w3-opacity"><b>Website development for <a href="http://mitaarohan.netlify.com"
+                      style="color: darkblue;" target="_blank">Aarohan</a></b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2020</h6>
+                <p>Aarohan, the annual cultural festival of MIT WPU, Pune was started in the year 2014 by a group of
+                  passionate individuals of the MIT College of Engineering. With a multitude of events, performances and
+                  activities, Aarohan has never failed to cast a spell over the audience.</p>
+                <hr>
+              </div>
+              <div class="w3-container hidework">
+                <h5 class="w3-opacity"><b>Data Analyst Intern at <a
+                      href="https://www.bankofindia.co.in/english/home.aspx" target="_blank"
+                      style="color: darkblue;">Bank of India</a></b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2019 - July 2019</h6>
+                <p>Wanting to explore the depth of Data Analysis, Bank of India graciously accepted me as their intern,
+                  to learn and work on their training models. The team working here has given me immense support, and a
+                  good overview of what a Data Scientist does.</p>
+                <hr>
+              </div>
+              <div class="w3-container hidework">
+                <h5 class="w3-opacity"><b>Web Development at <a href="https://www.idealake.com/" target="_blank"
+                      style="color: darkblue">IdeaLake</a></b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018 - July
+                  2018</span></h6>
+                <p>I started my training in web programming under the guidance of Idealake. The work environment was
+                  comfortable and my colleagues were highly trained professionals who made me a better version of
+                  myself.</p>
+                <hr>
+              </div>
+              <div class="w3-container hidework">
+                <h5 class="w3-opacity"><b>App Developing at <a href="https://www.bankofindia.co.in/english/home.aspx"
+                      target="_blank" style="color: darkblue;">Bank of India</a></b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2017 - July 2017</h6>
+                <p>I was introduced to Android Studio while I was working on an inventory app for Bank of India. My
+                  trainers made me visualize the endless possibilities Android Studio brings to us.</p>
+              </div>
+              <div class="w3-container w3-center">
+                <button id="hideworkbutton">Show More</button>
+              </div>
+            </div>
           </div>
+          <div class="wow bounceInUp">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i
+                  class="fas fa-chalkboard-teacher fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Community Ops and
+                Tech-fluencer</h2>
+              <div class="w3-container">
+                <p class="wow fadeIn"><i class="fa fa-code fa-xs fa-spin"></i> Speaker at 5 international webinars for
+                  bitgrit to engage community during pandemic. (<a
+                    href="https://www.youtube.com/watch?v=YUPX0pNro_s&t=4633s" target="_blank"
+                    style="color: darkblue;">Link to YouTube</a>)</p>
+                <p class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-code fa-xs fa-spin"></i> Head Organizer at
+                  <a style="color: darkblue;" href="https://thescriptgroup.in" target="_blank">The S.C.R.I.P.T Group</a>
+                </p>
+                <p class="wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-code fa-sm fa-spin"></i> YouTube Content
+                  Creator for Developers and 100 Days of Code challengee! (<a style="color: darkblue;"
+                    href="https://www.youtube.com/channel/UCPK07RXLEV63B1lZmn8oTCg" target="_blank">YouTube Channel</a>)
+                </p>
+                <p class="wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-code fa-xs fa-spin"></i> Taught JAVA and
+                  Python as Add-on Course Instructor for Third Year CSE students by School of CET, MIT-WPU</p>
+                <p class="wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-code fa-xs fa-spin"></i> 60+ hours of talks,
+                  workshop, webinar and teaching experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="wow bounceInUp">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i
+                  class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>College Experience and
+                Achievements</h2>
+              <div class="w3-container">
+                <p class="wow fadeIn"><i class="fa fa-code fa-xs fa-spin"></i> Participated in AngelHack Mumbai, 2019
+                </p>
+                <p class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-code fa-xs fa-spin"></i> Winner of Ready Set
+                  Code 2018, organized by MCUG, MIT-WPU</p>
+                <p class="wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-code fa-xs fa-spin"></i> Workshop lecturer
+                  at TECHOS organized by S.C.R.I.P.T</p>
+                <p class="wow fadeIn" data-wow-delay="0.8s"><i class="fa fa-code fa-xs fa-spin"></i> Organized MIT'S
+                  First Successful Comic-Con along with MIT Spandan</p>
+                <p class="wow fadeIn" data-wow-delay="1.0s"><i class="fa fa-code fa-xs fa-spin"></i> Completed N5 Level
+                  Japanese</p>
+              </div>
+            </div>
+          </div>
+          <div class="wow bounceInUp" data-wow-delay="0.5s">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i
+                  class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Personal Projects</h2>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Encrypto</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2017 ( <a
+                    href="Encrpyto.apk">Download here!</a> )<span class="w3-tag w3-text-white w3-round wow flip"
+                    data-wow-delay="1s" style="float: right; background-color: #2DC937;">Completed</span></h6>
+                <p>This was the first official app I had developed. It helps one to pass text in an encrypted manner
+                  which enhances privacy of messaging.</p>
+                <br>
+                <p>Steps to use: <br>1) Enter your message<br>2) Set a 4 digit code in order to encrypt the
+                  message<br>3) Press the lock button to encrypt and press the copy button to copy it<br>4) Send it to
+                  the other person and ask to repeat the same process by entering the same PMV code and press unlock
+                  button to see the hidden message!</p>
+                <br>
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Progressive Web Application for The S.C.R.I.P.T Group</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2019 <span
+                    class="w3-tag w3-text-white w3-round wow flash" data-wow-delay="1s"
+                    style="float: right; background-color: #E7B416;">In Progress</span></h6>
+                <p>Whilst learning about the upcoming PWA technology, I will be incorporating it into my team's website.
+                  This will basically be a handy app with a notification pusher and in-app registration service.</p>
+              </div>
+              <hr>
+              <div class="w3-container hideproj">
+                <h5 class="w3-opacity"><b>CGPA Calculator for SY.B.Tech CSE ( <a href="https://bit.ly/sycgpamit"
+                      target="_blank">bit.ly/sycgpamit )</a></b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>November 2018 <span
+                    class="w3-tag w3-text-white w3-round wow flip" data-wow-delay="1s"
+                    style="float: right; background-color: #2DC937;">Completed</span></h6>
+                <p>As soon as the results of Trimester IV was out, I designed a GPA calculator so that the students can
+                  check their GPA for the current Trimester.</p>
+                <p></p>
+              </div>
+              <hr>
+              <div class="w3-container hideproj">
+                <h5 class="w3-opacity"><b>InstaBlogger 3000</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2018 <span
+                    class="w3-tag w3-text-white w3-round wow flip"
+                    style="float: right; background-color: #2DC937;">Completed</span></h6>
+                <p>A personalized blog tracker built in Python, with multi-user facility and password protection.</p>
+                <p>I still have no intentions of making it public, until I design it with a proper GUI and an online
+                  24x7 running server.</p><br>
+                <hr>
+              </div>
+              <div class="w3-container w3-center">
+                <button id="hideprojbutton">Show More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="wow bounceInUp" data-wow-delay="1.0s">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i
+                  class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>MIT-WPU</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - <span
+                    class="w3-tag w3-teal w3-round">Current</span></h6>
+                <p>Bachelor's Degree in CSE (Computer Science and Engineering)</p>
+                <hr>
+              </div>
+              <div class="w3-container hideedu">
+                <h5 class="w3-opacity"><b>Rajhans Vidyalaya w/ PACE</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2017</h6>
+                <p>12th Passed</p>
+                <ul style="list-style-type: none; margin: 0; padding: 0;">
+                  <li>CBSE - 94.6%</li>
+                  <li>JEE Mains Rank - 47121</li>
+                  <li>JEE Advanced Rank - 29000</li>
+                </ul>
+                <hr>
+              </div>
+              <div class="w3-container hideedu">
+                <h5 class="w3-opacity"><b>Sharada Mandir School</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2015</h6>
+                <p>10th Passed</p>
+                <p>ICSE - 93.5%</p> <br>
+              </div>
+              <div class="w3-container w3-center">
+                <button id="hideedubutton">Show More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- End Right Column -->
       </div>
-    </div>
-    <div class="wow bounceInUp">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>College Experience and Achievements</h2>
-        <div class="w3-container">
-            <p class="wow fadeIn"><i class="fa fa-code fa-xs fa-spin"></i> Participated in AngelHack Mumbai, 2019</p>
-            <p class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-code fa-xs fa-spin"></i> Winner of Ready Set Code 2018, organized by MCUG, MIT-WPU</p>
-            <p class="wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-code fa-xs fa-spin"></i> Workshop lecturer at TECHOS organized by S.C.R.I.P.T</p>
-            <p class="wow fadeIn" data-wow-delay="0.8s"><i class="fa fa-code fa-xs fa-spin"></i> Organized MIT'S First Successful Comic-Con along with MIT Spandan</p>
-            <p class="wow fadeIn" data-wow-delay="1.0s"><i class="fa fa-code fa-xs fa-spin"></i> Completed N5 Level Japanese</p>
-        </div>
-      </div>
-    </div>
-    <div class="wow bounceInUp" data-wow-delay="0.5s">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Personal Projects</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Encrypto</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2017 ( <a href="Encrpyto.apk">Download here!</a> )<span class="w3-tag w3-text-white w3-round wow flip" data-wow-delay = "1s" style="float: right; background-color: #2DC937;">Completed</span></h6>
-          <p>This was the first official app I had developed. It helps one to pass text in an encrypted manner which enhances privacy of messaging.</p>
-          <br>
-          <p>Steps to use: <br>1) Enter your message<br>2) Set a 4 digit code in order to encrypt the message<br>3) Press the lock button to encrypt and press the copy button to copy it<br>4) Send it to the other person and ask to repeat the same process by entering the same PMV code and press unlock button to see the hidden message!</p>
-          <br>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Progressive Web Application for The S.C.R.I.P.T Group</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2019 <span class="w3-tag w3-text-white w3-round wow flash" data-wow-delay = "1s" style="float: right; background-color: #E7B416;">In Progress</span></h6>
-          <p>Whilst learning about the upcoming PWA technology, I will be incorporating it into my team's website. This will basically be a handy app with a notification pusher and in-app registration service.</p>
-        </div>
-        <hr>
-        <div class="w3-container hideproj">
-          <h5 class="w3-opacity"><b>CGPA Calculator for SY.B.Tech CSE ( <a href = "https://bit.ly/sycgpamit" target="_blank">bit.ly/sycgpamit )</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>November 2018 <span class="w3-tag w3-text-white w3-round wow flip" data-wow-delay = "1s" style="float: right; background-color: #2DC937;">Completed</span></h6>
-          <p>As soon as the results of Trimester IV was out, I designed a GPA calculator so that the students can check their GPA for the current Trimester.</p>
-          <p></p>
-        </div>
-        <hr>
-        <div class="w3-container hideproj">
-          <h5 class="w3-opacity"><b>InstaBlogger 3000</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2018 <span class="w3-tag w3-text-white w3-round wow flip" style="float: right; background-color: #2DC937;">Completed</span></h6>
-          <p>A personalized blog tracker built in Python, with multi-user facility and password protection.</p>
-          <p>I still have no intentions of making it public, until I design it with a proper GUI and an online 24x7 running server.</p><br>
-          <hr>
-        </div>
-        <div class="w3-container w3-center">
-          <button id = "hideprojbutton">Show More</button>
-        </div>
-        </div>
+
+      <!-- End Grid -->
     </div>
 
-    <div class="wow bounceInUp" data-wow-delay="1.0s">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>MIT-WPU</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Bachelor's Degree in CSE (Computer Science and Engineering)</p>
-          <hr>
-        </div>
-        <div class="w3-container hideedu">
-          <h5 class="w3-opacity"><b>Rajhans Vidyalaya w/ PACE</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2017</h6>
-          <p>12th Passed</p>
-          <ul style="list-style-type: none; margin: 0; padding: 0;">
-            <li>CBSE - 94.6%</li>
-            <li>JEE Mains Rank - 47121</li>
-            <li>JEE Advanced Rank - 29000</li>
-          </ul>
-          <hr>
-        </div>
-        <div class="w3-container hideedu">
-          <h5 class="w3-opacity"><b>Sharada Mandir School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2015</h6>
-          <p>10th Passed</p>
-          <p>ICSE - 93.5%</p> <br>
-        </div>
-        <div class="w3-container w3-center">
-          <button id = "hideedubutton">Show More</button>
-        </div>
-      </div>
-      </div>
-
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
+    <!-- End Page Container -->
   </div>
-  
-  <!-- End Page Container -->
-</div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <div class="w3-container">
-    <a href="https://www.facebook.com/aniket.raj.1517" target="_blank"><i class="fab fa-facebook fa-2x w3-hover-opacity w3-padding"></i></a>
-    <a href="https://www.linkedin.com/in/aniket-raj-8630b8180/" target="_blank"><i class="fab fa-linkedin fa-2x w3-hover-opacity w3-padding"></i></a>
-    <a href="https://www.instagram.com/aniket_spidey/" target="_blank"><i class="fab fa-instagram fa-2x w3-hover-opacity w3-padding"></i></a>
-    <a href="https://twitter.com/aniket_spidey" target="_blank"><i class="fab fa-twitter fa-2x w3-hover-opacity w3-padding"></i></a>
-    <a href="https://www.youtube.com/channel/UCPK07RXLEV63B1lZmn8oTCg" target="_blank"><i class="fab fa-youtube fa-2x w3-hover-opacity w3-padding"></i></a>
-    <a href="https://github.com/aniket-spidey" target="_blank"><i class="fab fa-github fa-2x w3-hover-opacity w3-padding"></i></a><br><br>
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <div class="w3-container">
+      <a href="https://www.facebook.com/aniket.raj.1517" target="_blank"><i
+          class="fab fa-facebook fa-2x w3-hover-opacity w3-padding"></i></a>
+      <a href="https://www.linkedin.com/in/aniket-raj-8630b8180/" target="_blank"><i
+          class="fab fa-linkedin fa-2x w3-hover-opacity w3-padding"></i></a>
+      <a href="https://www.instagram.com/aniket_spidey/" target="_blank"><i
+          class="fab fa-instagram fa-2x w3-hover-opacity w3-padding"></i></a>
+      <a href="https://twitter.com/aniket_spidey" target="_blank"><i
+          class="fab fa-twitter fa-2x w3-hover-opacity w3-padding"></i></a>
+      <a href="https://www.youtube.com/channel/UCPK07RXLEV63B1lZmn8oTCg" target="_blank"><i
+          class="fab fa-youtube fa-2x w3-hover-opacity w3-padding"></i></a>
+      <a href="https://github.com/aniket-spidey" target="_blank"><i
+          class="fab fa-github fa-2x w3-hover-opacity w3-padding"></i></a><br><br>
+    </div>
+    <div class="wow tada w3-container padding_bottom">
+      <i style="background-color: white; color: #009688; border-radius: 5px; padding: 5px; margin-bottom: 10px; ">Make
+        sure you have logged into your own account before visiting mine!</i>
+    </div>
+  </footer>
   </div>
-  <div class="wow tada w3-container padding_bottom">
-    <i style="background-color: white; color: #009688; border-radius: 5px; padding: 5px; margin-bottom: 10px; ">Make sure you have logged into your own account before visiting mine!</i>
-  </div>
-</footer>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- MAXCDN has to be appended to use Bootstrap -->
-<script src="js/homepage.js"></script>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- MAXCDN has to be appended to use Bootstrap -->
+  <script src="js/homepage.js"></script>
+
 </body>
+
 </html>
